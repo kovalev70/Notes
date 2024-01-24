@@ -4,7 +4,6 @@ using Notes.Application.Common.Mapping;
 using Notes.Application.Interfaces;
 using Notes.WebApi.Middleware;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplication();
